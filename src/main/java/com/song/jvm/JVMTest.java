@@ -16,5 +16,7 @@ public class JVMTest {
         i = ++i;
         System.out.println (i);
         System.out.println (j);
+        System.out.println (System.currentTimeMillis ());
+
     }
 }
